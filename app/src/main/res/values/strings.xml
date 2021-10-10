@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">weighbridge-on-universe</string>
+    <string name="main_header">Gezegenlerde kaç kilosun ???</string>
+    <string name="main_plaintext">dünyada kaç kilosun</string>
+    <string name="main_btn">Hesapla</string>
+    <string name="main_result_view">SONUC</string>
 </resources>
