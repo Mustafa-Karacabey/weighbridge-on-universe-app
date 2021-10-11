@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
 
-</selector>
+    <stroke android:color="@color/black" android:width="2dp"></stroke> //Çerçeve çizer dikdörtgen with kalınlığı belirler
+    <solid android:color="@color/cardview_light_background"></solid> //Arka planı çizer
+    <padding android:top="4dp" android:left="4dp" android:bottom="4dp"></padding>
+    <corners android:radius="4dp"></corners>
+
+
+</shape>

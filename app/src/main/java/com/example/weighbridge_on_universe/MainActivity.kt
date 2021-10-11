@@ -86,17 +86,17 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
             R.id.checkBoxMars -> {
                 calculatedpound = pound * MARS
                 calculatedkilo= convertPoundToKilo(calculatedpound)
-                result_view.text = calculatedkilo.toString()
+                result_view.text = calculatedkilo.toString() + " kg"
             }
             R.id.checkBoxJupi -> {
                 calculatedpound = pound * JUPITER
                 calculatedkilo= convertPoundToKilo(calculatedpound)
-                result_view.text = calculatedkilo.toString()
+                result_view.text = calculatedkilo.toString() + " kg"
             }
             R.id.checkBoxVenus -> {
                 calculatedpound = pound * VENUS
                 calculatedkilo= convertPoundToKilo(calculatedpound)
-                result_view.text = calculatedkilo.toString()
+                result_view.text = calculatedkilo.toString() + " kg"
             }
         }
     }
@@ -110,4 +110,4 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
           var marsPound = poundKilo * MARS
           var marsKilo = convertPoundToKilo(marsPound)
           result_view.text = marsKilo.toString()
-      })*/
+})*/
